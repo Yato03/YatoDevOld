@@ -25,6 +25,16 @@ p{
   text-align: justify;
 }
 
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#descarga{
+  align-self: center;
+}
+
 .cardtext {
   color: black;
 }
@@ -135,6 +145,10 @@ footer{
     display: none;
   }
 
+  #programas .container{
+    margin-bottom: 150px;
+  }
+
   .card{
     width: 90%;
     margin-left: 5%;
@@ -211,12 +225,6 @@ footer{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 1%;
-  }
-
-  .card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   #div-img-principal{
