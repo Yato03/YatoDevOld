@@ -157,10 +157,21 @@ footer{
 @media screen and (min-device-width:375px) and (max-device-width:768px){
   h1{
     padding-top: 10%;
+    font-size: 4em !important;
   }
 
+  h3{
+    font-size: 3em !important;
+  }
+  
   .titulo{
     padding-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  #descarga{
+    font-size: 2.75em;
+    align-self: center;
   }
 
   #boton_inicio2{
@@ -176,6 +187,7 @@ footer{
 
   .nav-item{
     font-size: 2.5em;
+    margin-left: 45px;
   }
 
   p{
@@ -191,10 +203,20 @@ footer{
     margin-right: 5% !important;
   }
 
+  #contactame .card-text{
+    font-size: 2.75em;
+  }
+
   .cardtext {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 1%;
+  }
+
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   #div-img-principal{
