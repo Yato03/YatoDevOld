@@ -3,6 +3,14 @@ body{
   background: #232526;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: inherit;
+  height: inherit;
+}
+
+html{
+  scroll-behavior: smooth;
+  margin: none;
+  padding: none;
 }
 
 h1{
@@ -31,13 +39,17 @@ p{
   justify-content: center;
 }
 
-#descarga{
+.link_desc{
   align-self: center;
 }
 
 .cardtext {
   color: black;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
+
 
 .dark {
   color: black;
@@ -56,6 +68,14 @@ p{
 
 #contactame{
   display: none;
+}
+
+.imagenCard{
+  border: solid 2px;
+}
+
+.card-body ul{
+  margin-left: 40%;
 }
 
 /* css de la animacion de flip*/
@@ -146,7 +166,7 @@ footer{
   }
 
   #programas .container{
-    margin-bottom: 150px;
+    margin-bottom: 5%;
   }
 
   .card{
@@ -165,6 +185,29 @@ footer{
     margin-right:20%;
     width: 60%;;
   }
+
+  .imagenCard{
+    margin-left:20%;
+    margin-right:20%;
+    width: 60%;
+  }
+
+  .list-group{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.5em;
+  }
+
+  .container{
+    max-width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    margin-bottom: 10% !important;
+  }
+
 }
 
 /* FORMATO PARA MOVILES */
@@ -183,7 +226,7 @@ footer{
     margin-bottom: 5%;
   }
 
-  #descarga{
+  .link_desc{
     font-size: 2.75em;
     align-self: center;
   }
@@ -208,13 +251,14 @@ footer{
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .container{
     max-width: 90% !important;
     margin-left: 5% !important;
     margin-right: 5% !important;
+    margin-bottom: 10% !important;
   }
 
   #contactame .card-text{
@@ -256,4 +300,27 @@ footer{
     margin-right:auto;
     width: 100%;
   }
+
+  #googleImage{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+  }
+
+  .imagenCard{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+  }
+
+  .list-group{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2.5em;
+    padding-bottom: 10%;
+  }
+
 }
+
